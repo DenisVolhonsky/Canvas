@@ -1,10 +1,12 @@
 var canvas = document.getElementById('spirograph');
 var ctx = canvas.getContext('2d');
 
+// ctx.stroke() отрисовка прямоугольника
+
 // входные параметры
-var R=10;
-var r=100;
-var d=90;
+var R=130;
+var r=17;
+var d=50;
 var teta = 0;
 var color = 'green';
 
